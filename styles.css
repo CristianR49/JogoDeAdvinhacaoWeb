@@ -1,0 +1,88 @@
+body{
+    min-height: 500;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.cabecalho
+{
+    text-align: center;
+}
+
+.cabecalho > h2 
+{
+    font-size: 19px;
+}
+
+button
+{
+    border-radius: 5px;
+}
+
+.btn-tentar-novamente
+{
+    height: 30px;
+    width: 220px;
+    margin-top: 10px;
+    
+}
+
+input
+{
+     width: 170;
+}
+
+.controles
+{
+    display: flex;
+
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 20px;
+} */
