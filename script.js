@@ -28,6 +28,12 @@ class AdivinhacaoIndexView
         console.log(this.numeroSecreto);
         console.log(this.txtChute.value);
 
+        if (this.txtChute.value == "")
+        {
+            this.txtNotificacao.textContent = "Insira um número!";
+            return;
+        }
+
         if (this.txtChute.value == this.numeroSecreto)
         {
             this.txtNotificacao.textContent = "Parabéns, você acertou!";
