@@ -63,37 +63,3 @@ class AdivinhacaoIndexView
 }
 
 window.addEventListener('load', () => new AdivinhacaoIndexView());
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// document.addEventListener("DOMContentLoaded", function () {
-//     const randomNumber = Math.floor(Math.random() * 20) + 1;
-//     const guessInput = document.getElementById("guess");
-//     const checkButton = document.getElementById("checkButton");
-//     const result = document.getElementById("result");
-
-//     checkButton.addEventListener("click", function () {
-//         const userGuess = parseInt(guessInput.value);
-//         if (isNaN(userGuess) || userGuess < 1 || userGuess > 20) {
-//             result.textContent = "Escolha um número válido entre 1 e 20.";
-//         } else {
-//             if (userGuess === randomNumber) {
-//                 result.textContent = "Parabéns! Você acertou!";
-//             } else {
-//                 result.textContent = `Tente novamente. O número correto é ${randomNumber > userGuess ? "maior" : "menor"}.`;
-//             }
-//         }
-//     });
-// });
